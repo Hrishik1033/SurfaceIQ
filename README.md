@@ -118,23 +118,6 @@ python main.py --image ./samples/part_01.jpg
 
 <br>
 
-## 📂 Project Structure
-
-```
-ferrovision/
-├── agents/
-│   ├── state.py         # shared LangGraph state schema
-│   ├── nodes.py          # Diagnostician / Solutions / Financial agents
-│   └── graph.py            # graph wiring
-├── download_dataset.py    # pulls dataset from Roboflow
-├── train.py                 # YOLOv8-seg training
-├── infer.py                   # structured detection output
-├── main.py                     # end-to-end pipeline entrypoint
-└── requirements.txt
-```
-
-<br>
-
 ## 🗺️ Roadmap
 
 - [ ] ⏭️ Conditional routing — skip the financial agent for cosmetic-only defects
