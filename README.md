@@ -23,9 +23,9 @@
 
 <br>
 
-## 📖 What is FerroVision?
+## 📖 What is SurfaceIQ?
 
-**FerroVision** is an end-to-end pipeline for automated metal surface defect inspection, combining computer vision with AI-driven reasoning. A fine-tuned **YOLOv8 segmentation model** detects and classifies surface anomalies — scratches, pitting, rolled-in scale, inclusions, and other defect types — directly on industrial metal imagery, outputting precise **polygon masks** rather than just bounding boxes.
+**SurfaceIQ** is an end-to-end pipeline for automated metal surface defect inspection, combining computer vision with AI-driven reasoning. A fine-tuned **YOLOv8 segmentation model** detects and classifies surface anomalies — scratches, pitting, rolled-in scale, inclusions, and other defect types — directly on industrial metal imagery, outputting precise **polygon masks** rather than just bounding boxes.
 
 But detection is only half the picture. Every flagged anomaly is passed into a **multi-agent reasoning system** built with LangGraph, where three specialized agents collaborate in sequence to turn a raw detection into a decision-ready report.
 
@@ -95,8 +95,8 @@ The result is a system that doesn't just flag *"something's wrong here"* — it 
 ## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/yourusername/ferrovision.git
-cd ferrovision
+git clone https://github.com/yourusername/surfaceiq.git
+cd surfaceiq
 pip install -r requirements.txt
 cp .env.example .env   # add your ROBOFLOW_API_KEY and ANTHROPIC_API_KEY
 
