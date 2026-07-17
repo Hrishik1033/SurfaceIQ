@@ -1,0 +1,9 @@
+ultralytics
+langchain-community
+langchain-core
+langchain-text-splitters
+langgraph
+pydantic
+dotenv
+langchain-mistralai
+streamlit
